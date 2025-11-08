@@ -1,10 +1,12 @@
 === Featured Image ===
 Contributors: mervinpraison
 Donate Link: https://mer.vin
-Tags: image, featured image, widget, image widget, image featured, image widget, seo,
+Tags: featured-image, widget, shortcode, image, seo
 Requires at least: 3.0
 Tested up to: 6.8
 Stable tag: 2.2
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Add featured image to any part of the website, on each individual post/page. Very Easy to Implement. Shortcode and widget available. 
 

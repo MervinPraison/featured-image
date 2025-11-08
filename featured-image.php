@@ -10,7 +10,8 @@
     Description: Provides you with a featured image shortcode [ featured-img ] and Featured Image widget. Very Easy to implement. 
     Author: Mervin Praison
     Version: 2.2
-    License: GPL
+    License: GPLv2 or later
+    License URI: https://www.gnu.org/licenses/gpl-2.0.html
     Author URI: https://mer.vin/
     Last change: 2025-01-08
 */
@@ -52,7 +53,9 @@ function getting_featured_img() {
 add_shortcode('featured-img', 'getting_featured_img');
 
 function get_featured_img() {
-echo getting_featured_img();
+	// Output is already escaped in getting_featured_img()
+	// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	echo getting_featured_img();
 }
 
 /* Getting Featured Image Caption [featured-img-caption] */
@@ -86,7 +89,9 @@ function getting_featured_img_caption() {
 add_shortcode('featured-img-caption', 'getting_featured_img_caption');
 
 function get_featured_img_caption() {
-  echo getting_featured_img_caption();
+	// Output is already escaped in getting_featured_img_caption() with wp_kses_post()
+	// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	echo getting_featured_img_caption();
 }
 
 
