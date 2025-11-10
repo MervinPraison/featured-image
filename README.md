@@ -11,8 +11,6 @@ Add featured images to any part of your WordPress website with ease. Provides sh
 
 **CRITICAL**: Version 2.2 fixes a Stored Cross-Site Scripting (XSS) vulnerability (CVE-2025-12019). Please update immediately.
 
-[View Security Fix Details](SECURITY-FIX-SUMMARY.md)
-
 ## Features
 
 - ✅ **Easy Implementation** - Simple shortcode and widget
