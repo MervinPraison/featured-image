@@ -6,7 +6,7 @@ repo_name: MervinPraison/featured-image
 repo_url: https://github.com/MervinPraison/featured-image
 
 theme:
-  name: material
+  name: !ENV [PRAISONAI_THEME, material]
   palette:
     - scheme: slate
       primary: purple
