@@ -1,3 +1,18 @@
+---
+layout: home
+title: Featured Image
+description: Featured image shortcode and widget for WordPress
+hero:
+  name: Featured Image
+  text: Featured Image
+  tagline: Featured image shortcode and widget for WordPress
+  actions:
+  - text: Quick start
+    link: getting-started/installation.md
+  - text: View on GitHub
+    link: https://github.com/MervinPraison/featured-image
+    theme: alt
+---
 # Featured Image
 
 Display featured images with shortcodes and widgets.
