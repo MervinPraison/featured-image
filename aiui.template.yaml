@@ -6,8 +6,9 @@ site:
   title: Featured Image
   ui: shadcn
   theme:
-    preset: purple
-    darkMode: true
+    preset: paper
+    radius: md
+    mode: system
   description: Featured image shortcode and widget for WordPress
 seo:
   siteUrl: https://mervinpraison.github.io/featured-image
